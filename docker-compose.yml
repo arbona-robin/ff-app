@@ -1,0 +1,14 @@
+version: "3"
+services:
+  app:
+    platform: linux/amd64
+    container_name: ff-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - data:/data
+    command: yarn start
+volumes:
+  data:

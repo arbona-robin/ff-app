@@ -1,0 +1,14 @@
+{
+  "name": "ffmpeg-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Arbona Robin <arbona.robin@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
